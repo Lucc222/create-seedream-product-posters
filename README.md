@@ -4,6 +4,23 @@ Turn one casual product photo into a planned, polished Chinese or English commer
 
 This TRAE Skill is designed for product-poster workflows such as e-commerce hero images, promotional long posters, new product launch visuals, English campaign posters, and product-photo-to-poster tasks. It helps the agent plan the theme, define the copy hierarchy, choose a commercial visual direction, build a Seedream prompt, and run visual QA before accepting the final poster.
 
+## Generated Examples
+
+These generated examples show the kind of commercial product posters this skill can help plan, prompt, and evaluate.
+
+<p>
+  <img src="examples/generated-poster-01.png" alt="Generated product poster example 01" width="220">
+  <img src="examples/generated-poster-02.png" alt="Generated product poster example 02" width="220">
+  <img src="examples/generated-poster-03.png" alt="Generated product poster example 03" width="220">
+  <img src="examples/generated-poster-04.png" alt="Generated product poster example 04" width="220">
+  <img src="examples/generated-poster-05.png" alt="Generated product poster example 05" width="220">
+  <img src="examples/generated-poster-06.png" alt="Generated product poster example 06" width="220">
+  <img src="examples/generated-poster-07.png" alt="Generated product poster example 07" width="220">
+  <img src="examples/generated-poster-08.png" alt="Generated product poster example 08" width="220">
+  <img src="examples/generated-poster-09.png" alt="Generated product poster example 09" width="220">
+  <img src="examples/generated-poster-10.png" alt="Generated product poster example 10" width="220">
+</p>
+
 ## Skill Description
 
 `create-seedream-product-posters` transforms a product snapshot into a complete commercial poster concept and generation workflow.
