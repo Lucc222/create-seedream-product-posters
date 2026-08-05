@@ -13,11 +13,9 @@ Read these files before planning or generating:
 
 1. Read [reference-grammar.md](references/reference-grammar.md) to extract the reference composition, density, rhythm, and richness.
 2. Read [style-atlas.md](references/style-atlas.md) to choose the visual family.
-3. Read [style-recipes-18.md](references/style-recipes-18.md) to choose and safely adapt one of the eighteen concrete commercial art directions.
-4. Read [layout-system.md](references/layout-system.md) to construct the grid and copy hierarchy.
-5. Read [prompting-and-api.md](references/prompting-and-api.md) before writing the Seedream prompt or invoking the API.
-6. Read [qa-rubric.md](references/qa-rubric.md) before accepting a result.
-7. Read [commercial-completeness.md](references/commercial-completeness.md) before any no-brief request, rich/high-impact request, or revision of a result that feels like a catalog/editorial still.
+3. Read [layout-system.md](references/layout-system.md) to construct the grid and copy hierarchy.
+4. Read [prompting-and-api.md](references/prompting-and-api.md) before writing the Seedream prompt or invoking the API.
+5. Read [qa-rubric.md](references/qa-rubric.md) before accepting a result.
 
 When the category or campaign structure is ambiguous, read [universal-router.md](references/universal-router.md) first, then [reference-corpus.md](references/reference-corpus.md). Route by product signals and buying mechanism rather than visual color alone.
 
@@ -25,7 +23,7 @@ When the category or campaign structure is ambiguous, read [universal-router.md]
 
 - Accept one product snapshot as the minimum input.
 - Infer a reasonable commercial direction when the user gives no campaign brief. Ask only when a missing fact would make the claim, price, or brand legally risky.
-- Plan the theme before generating. Show a compact concept card unless the user explicitly requests direct generation; direct generation may hide the card from chat but must not skip the internal concept, preflight, or commercial-completeness gate.
+- Plan the theme before generating. Show a compact concept card unless the user explicitly requests direct generation.
 - When references are supplied, imitate their design grammar—not their brand assets: extract macro bands, hierarchy, density, rhythm, scene depth, and module language before selecting a style.
 - Use `doubao-seedream-5-0-pro-260628` by default. Allow `SEEDREAM_MODEL` or `--model` to override it because model IDs evolve.
 - If Seedream is unavailable and the user explicitly permits Image2 or another available image model, use that model and disclose the actual model in the delivery. Never call a fallback result “Seedream”.
@@ -42,9 +40,6 @@ When the category or campaign structure is ambiguous, read [universal-router.md]
 - Treat `top-centered headline + centered product + three equal bottom cards` as a banned generic triptych. A scenic backdrop and three icon cards do not constitute a campaign idea.
 - Derive at least two recognizable visual devices from the specific product’s form, material, use, or desire. A different background color does not count.
 - Every factual support line and benefit needs provenance: directly visible or explicitly user-supplied. A plausible category claim is still an unsupported claim.
-- Default an ordinary “做一个商品海报” request to impact_mode=commercial-rich. Use quiet-premium only when the user explicitly asks for minimal restraint; use campaign-maximal for festival, IP, social, or explicitly high-energy work.
-- Reject “beautiful scenery + product + headline” when the product does not cause a visual event, no secondary evidence/story exists, and no authorized brand/campaign memory device owns the frame.
-- Never permit native-generation filler such as “AI生成,” random years, fake initials, pseudo-English, watermarks, or unlisted microcopy.
 
 ## Workflow
 
@@ -129,8 +124,6 @@ Do not combine more than two primary objectives.
 
 Before choosing aesthetics, record `form / material / use / desire`, select one buying mechanism, and set density `D1 / D2 / D3` with [universal-router.md](references/universal-router.md). The buying mechanism determines the proof; the density determines module count; only then should the style family determine visual expression.
 
-Choose impact_mode with [commercial-completeness.md](references/commercial-completeness.md), then define one visual thesis, one hero event, one secondary evidence scene, one authorized brand/campaign memory device, one composition-tension device, and one bottom payoff. Select devices from all three groups: composition, product evidence, and memory. commercial-rich requires at least four impact devices.
-
 Then define an **anti-template contract**:
 
 - two category-specific visual devices derived from product truth;
@@ -149,7 +142,7 @@ Also set:
 
 ### 4. Choose one visual family
 
-Select one family from the style atlas and one concrete recipe from [style-recipes-18.md](references/style-recipes-18.md). Use `R00-custom-family` instead of forcing a mismatched recipe when none of R01–R18 fits. Mix at most one secondary family or recipe at 20% and state exactly which devices are borrowed, such as `科技旗舰 / R03 黑金奢华科技发布 80% + 促销会场的舞台层级 20%`. Never inherit the recipe's placeholder price, claim, endorsement, date, CTA, or brand asset.
+Select one family from the style atlas. Mix at most one secondary family and state the split, such as `科技旗舰 80% + 促销会场 20%`.
 
 Match style to product truth:
 
@@ -158,7 +151,6 @@ Match style to product truth:
 - makeup with a visible finish or authorized model → portrait-product dual proof;
 - cold drinks, soda, fruit products → refreshing beverage;
 - coffee, snacks, food, home goods → daily lifestyle;
-- dresses and apparel → fashion editorial with material proof and composition tension, not merely a garment in a pretty location;
 - packaged food or breakfast sets → pack-result-routine triangle;
 - shoes or sports gear → sport energy;
 - collectibles and youth products → playful IP;
@@ -196,7 +188,7 @@ Write idiomatic English rather than translating Chinese word for word. Prefer ac
 
 Use fewer layers for premium styles and more layers only for promotion or playful-IP styles.
 
-For each support line and benefit, record claim_provenance as visible, user-supplied, or omitted, plus a concrete claim_evidence note. Visible means the claim can be verified from the supplied photograph itself; it does not mean the claim is merely typical for the category. Treat nutrition, stimulation, roast, performance, waterproofing, endurance, technology names, and every numeric statement as high risk. Use neutral descriptive copy or omit the line when provenance is missing.
+For each support line and benefit, record `claim_provenance` as `visible`, `user-supplied`, or `omitted`. Visible means the claim can be verified from the supplied photograph itself; it does not mean the claim is merely typical for the category. Use neutral descriptive copy or omit the line when provenance is missing.
 
 First classify the poster as `publicity` or `conversion`. Publicity posters do not need a CTA: set `requires_cta=false`, keep `copy_manifest.cta` empty, and close the bottom with a non-clickable slogan or brand line. Do not add buttons, arrows, search bars, “learn more,” “buy now,” or other action instructions merely to fill space. Conversion posters set `requires_cta=true` and use a concrete action matching the buying mechanism, such as `立即了解`, `查看详情`, `立即选购`, `马上出发`, `即刻来一杯`, or a user-supplied campaign CTA.
 
@@ -212,17 +204,13 @@ Return this compact structure before the first generation:
 主题：
 一句话策略：
 视觉母版：
-风格配方：R00或R01–R18；主配方 / 可选20%借用装置
-冲击模式：quiet-premium / commercial-rich / campaign-maximal
 商品真值锁：
 输出语言与市场：zh-CN / en；目标市场或渠道
 海报类型：宣传型 / 转化型；requires_cta=true/false
 核心文案：眉题 / 主标题 / 副标题 / 3卖点 / 徽章 / CTA或宣传收口
-声明来源：副标题与每条卖点分别标注 visible / user-supplied / omitted，并写具体证据
+声明来源：副标题与每条卖点分别标注 visible / user-supplied / omitted
 场景与道具：
 产品专属装置：至少2项；互动或材质证据；前景纵深装置
-商业完成度：视觉命题 / 英雄事件 / 次级证据场景 / 品牌记忆装置 / 构图张力 / 底部回响
-冲击装置：至少覆盖 composition / product evidence / memory 三组
 版式：六段高度占比、文字区、商品区、促销区、底栏位置
 版式签名：headline_axis / product_axis / bottom_system；明确禁止复用的模板
 信息密度：模块数 / 强中弱层级 / 视觉锚点顺序
@@ -233,10 +221,10 @@ Return this compact structure before the first generation:
 
 When the user asks for multiple concepts, produce three genuinely different directions: premium, conversion, and social. Do not make three color variants of one layout.
 
-For multiple products, show a **batch style matrix** before generating. Assign distinct recipe IDs unless the user requests one campaign system:
+For multiple products, show a **batch style matrix** before generating:
 
 ```text
-商品 / 主题 / 风格配方ID / 明暗基调 / 版式轴 / 字体性格 / 场景材质 / 信息密度 / 禁止复用元素
+商品 / 主题 / 明暗基调 / 版式轴 / 字体性格 / 场景材质 / 信息密度 / 禁止复用元素
 ```
 
 Require every pair of posters to differ in at least four of these six dimensions:
@@ -258,10 +246,8 @@ Do not generate until the concept card passes this preflight:
 - 7–10 modules for standard commercial posters, 11–15 only for promotion/IP/social;
 - at least three of the five richness layers;
 - at least two category-specific devices and one interaction/material proof;
-- commercial-rich has 9–11 modules, interaction among at least four richness layers, six information zones, and at least four impact devices;
-- visual thesis, hero event, secondary evidence, memory device, composition tension, and bottom payoff are all explicit;
 - one foreground depth device and one deliberate bottom closure;
-- every factual support line and benefit has visible or user-supplied provenance plus concrete evidence;
+- every factual support line and benefit has visible or user-supplied provenance;
 - layout is not the banned generic triptych;
 - calm contrast surfaces behind all important copy;
 - bottom 12–18% reserved for conversion/trust when conversion is the objective.
@@ -273,7 +259,7 @@ For final or paid generation, make this gate deterministic:
 3. Run `python3 scripts/preflight_check.py /absolute/path/concept.json`.
 4. Do not generate until the command prints `PASS`.
 
-The checker rejects missing truth locks, invalid density/module combinations, incomplete bands, fewer than three anchors or richness layers, undersized products, missing claim evidence, sparse commercial-rich concepts, incomplete commercial-completeness components, missing composition/evidence/memory devices, fewer than two product-specific devices, the generic triptych, automatically detected unverified numeric copy, high-risk claims without user-supplied provenance, a missing headline, CTA misuse, absent bottom closure, and unusable input quality.
+The checker rejects missing truth locks, invalid density/module combinations, incomplete bands, fewer than three anchors or richness layers, undersized products, missing claim provenance, fewer than two product-specific devices, an incomplete anti-template contract, the generic top-headline/center-product/bottom-triptych signature, unsupported numeric claims, a missing headline, a missing CTA when conversion requires one, a CTA mistakenly added to a publicity poster, absent bottom closure, and unusable input quality.
 
 ### 7. Compose the Seedream prompt
 
@@ -282,14 +268,13 @@ Write one cohesive natural-language prompt in this order:
 1. task and output type;
 2. reference-image role and product truth lock;
 3. negative-geometry lock;
-4. audience, theme, selected R00/R01–R18 recipe signature, and scene;
-5. impact mode, visual thesis, hero event, evidence scene, brand/campaign memory, composition tension, and bottom payoff;
-6. the two category-specific devices, foreground depth device, selected impact devices, and the template signature to avoid;
-7. normalized composition, six information zones, layout signature, and safe areas;
-8. complete exact-copy manifest, claim provenance, and evidence for every factual text region;
+4. audience, theme, and scene;
+5. the two category-specific devices, interaction/material proof, foreground depth device, and the template signature to avoid;
+6. normalized composition, layout signature, and safe areas;
+7. complete exact-copy manifest and claim provenance for every factual text region;
    declare `output_language` and forbid all unlisted copy in either language;
-9. palette, lighting, material, lens, and finish;
-10. explicit invariants, category-specific exclusions, unlisted-text exclusions, and failure exclusions.
+8. palette, lighting, material, lens, and finish;
+9. explicit invariants, category-specific exclusions, and failure exclusions.
 
 Use the prompt formulas in [prompting-and-api.md](references/prompting-and-api.md). Prefer precise language over long adjective stacks.
 
@@ -322,14 +307,12 @@ Revise by changing only the failed dimension:
 - clutter → remove secondary props and badges;
 - illegible text → shorten copy or switch to two-pass typesetting;
 - generic style → add one concrete scene metaphor, material system, and lighting direction;
-- recipe drift → restate the selected recipe ID, its five signature devices, and which unsafe placeholder modules must remain absent;
 - generic triptych → change the composition axis, product overlap, evidence mechanism, module shapes, and bottom closure together; do not merely restyle the three cards;
 - poor conversion → enlarge product, CTA, and offer zone while simplifying decoration.
 - publicity poster looks like a shopping UI → remove CTA buttons, arrows, search bars, and action instructions; extend the scene or stage into that area and close with a non-interactive slogan.
 - batch looks templated → keep product truth locks, then replace the scene system, type personality, composition axis, and module shape rather than merely changing color.
 - scene feels empty → add one purposeful foreground frame, one midground interaction layer, and one background depth cue; never solve emptiness with unsupported copy.
 - scene is pretty but not ownable → replace generic lifestyle props with two devices derived from the product’s silhouette, material, use, or category physics.
-- result looks like an editorial still → keep product truth, then add one hero event, one secondary evidence/story zone, one authorized memory device, one scale/overlap/crop relationship, and a bottom payoff; regenerate the key visual.
 - visual effects feel cheap or contradictory → remove disconnected icons/notes/speed streaks and rebuild one physically coherent effect tied to the product.
 
 Do not keep polishing a failed base image. Regenerate when a hard rejection condition occurs.
@@ -339,7 +322,7 @@ Target 90/100 or higher. A score below 90 is a revision candidate even when no s
 Make the delivery gate deterministic:
 
 1. Run `python3 scripts/qa_gate.py --write-template /absolute/path/qa.json`.
-2. Record direct evidence from source comparison, full-size inspection, thumbnail inspection, copy checking, claim-evidence checking, commercial-completeness checking, selected-recipe checking, anti-template checking, product-specific-device checking, unlisted-text checking, and safe-zone checking.
+2. Record direct evidence from source comparison, full-size inspection, thumbnail inspection, copy checking, claim-provenance checking, anti-template checking, product-specific-device checking, and safe-zone checking.
 3. Enter every rubric subscore; list every hard rejection rather than hiding it in a low score.
 4. Run `python3 scripts/qa_gate.py /absolute/path/qa.json`.
 5. For a batch, pass every QA JSON in one command so the script verifies that each pair differs in at least four of six style dimensions.
@@ -380,14 +363,12 @@ Prefer ordinary punctuation and tested characters in CTA, slogan, and badge copy
 
 - [universal-router.md](references/universal-router.md): product-signal, buying-mechanism, density, scale, and six-band routing for unfamiliar categories.
 - [style-atlas.md](references/style-atlas.md): ten reusable visual families and selection matrix.
-- [style-recipes-18.md](references/style-recipes-18.md): eighteen supplied commercial art directions normalized for product truth, publicity/conversion routing, English adaptation, and claim safety.
 - [reference-grammar.md](references/reference-grammar.md): distilled anatomy, density, rhythm, and richness from the supplied poster references.
-- [commercial-completeness.md](references/commercial-completeness.md): default impact modes, visual-event requirements, impact-device vocabulary, and apparel/iced-coffee corrections.
 - [layout-system.md](references/layout-system.md): normalized 9:16 grids, hierarchy, density, and composition formulas.
 - [prompting-and-api.md](references/prompting-and-api.md): Seedream 5.0 Pro prompt patterns, API behavior, and retry guidance.
 - [qa-rubric.md](references/qa-rubric.md): scorecard and hard rejection conditions.
 - [execution-patterns.md](references/execution-patterns.md): field-tested style routing, richness rules, and batch anti-template checks.
-- [benchmark-regression.md](references/benchmark-regression.md): twenty-case regression suite and failure lessons for future changes.
+- [benchmark-regression.md](references/benchmark-regression.md): sixteen-case regression suite and failure lessons for future changes.
 - [reference-corpus.md](references/reference-corpus.md): 22 supplied references indexed by buying mechanism, layout, density, and reusable pattern.
 - `scripts/seedream_generate.py`: local-image-to-poster API client with validation, retries, and download.
 - `scripts/preflight_check.py`: deterministic JSON preflight for product truth, mechanism, density, bands, anchors, copy, claims, scale, and closure.

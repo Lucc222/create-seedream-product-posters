@@ -33,7 +33,7 @@ https://raw.githubusercontent.com/Lucc222/create-seedream-product-posters/main/S
 Use the complete skill package if your agent needs the references, scripts, and agent configuration files:
 
 ```text
-https://github.com/Lucc222/create-seedream-product-posters/raw/main/create-seedream-product-posters-v18.zip
+https://github.com/Lucc222/create-seedream-product-posters/raw/main/create-seedream-product-posters-v16.zip
 ```
 
 Repository homepage:
@@ -93,11 +93,9 @@ The complete workflow depends on these reference documents:
 
 - [reference-grammar.md](references/reference-grammar.md): Extracts reference composition, density, rhythm, visual richness, and commercial poster grammar.
 - [style-atlas.md](references/style-atlas.md): Helps choose the visual family and map product categories to suitable poster styles.
-- [style-recipes-18.md](references/style-recipes-18.md): Provides eighteen concrete commercial art directions that can be safely adapted.
 - [layout-system.md](references/layout-system.md): Defines grid, copy hierarchy, product placement, visual flow, and poster structure.
 - [prompting-and-api.md](references/prompting-and-api.md): Guides Seedream 5.0 Pro prompting and generation behavior.
 - [qa-rubric.md](references/qa-rubric.md): Defines quality gates before accepting the final poster.
-- [commercial-completeness.md](references/commercial-completeness.md): Checks whether the output feels like a complete commercial poster rather than a catalog still.
 - [universal-router.md](references/universal-router.md): Routes ambiguous products or campaign requests to the right visual strategy.
 - [reference-corpus.md](references/reference-corpus.md): Provides reference patterns and examples for campaign planning.
 - [benchmark-regression.md](references/benchmark-regression.md): Tracks benchmark behavior and regression risks.
@@ -108,8 +106,10 @@ The complete workflow depends on these reference documents:
 The repository also includes:
 
 - `SKILL.md`: standalone skill definition.
-- `create-seedream-product-posters-v18.zip`: complete packaged skill archive.
+- `create-seedream-product-posters-v16.zip`: complete packaged skill archive.
 - `references/`: supporting knowledge files for style, layout, prompting, QA, and execution.
+- `scripts/`: helper scripts included in the V16 skill package.
+- `agents/`: agent configuration included in the V16 skill package.
 
 ## Notes
 
