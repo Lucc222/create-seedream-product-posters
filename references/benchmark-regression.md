@@ -1,6 +1,6 @@
 # Poster Skill Regression Suite
 
-Use these twenty cases after meaningful changes to the workflow. They test arbitrary snapshots, product fidelity, text discipline, layout richness, commercial completeness, category and recipe routing, batch diversity, anti-template behavior, claim provenance, and two-pass exact copy.
+Use these sixteen cases after meaningful changes to the workflow. They test arbitrary snapshots, product fidelity, text discipline, layout richness, category routing, batch diversity, anti-template behavior, claim provenance, and two-pass exact copy.
 
 ## Case A: dark spherical open-fit earbuds
 
@@ -205,46 +205,6 @@ Use these twenty cases after meaningful changes to the workflow. They test arbit
 **Required locks:** exact grille weave, proportions, end caps, buttons, ports, strap hardware, feet and logo; all factual benefits have provenance.
 
 **Pass signal:** speaker is the anchor, fire/tent remain context, acoustic effects emerge from product geometry, and no unsupported specification appears.
-
-## Case Q: floral dress that degenerates into an editorial still
-
-**Input risk:** the dress is preserved but simply hangs in a beautiful garden; scenery owns the idea; three labels replace proof; fake “AI生成,” year codes, initials, or random English appear.
-
-**Expected route:** impact_mode=commercial-rich; fashion campaign; 9–10 modules; asymmetric 65/35 split or diagonal hem sweep; material macro; campaign memory device; integrated publicity close.
-
-**Required locks:** exact garment, strap path, neckline, waist, print repeat, seams, translucency and hem; plausible support; no invented brand, year, AI label, model, fabric claim or body-shaping claim.
-
-**Pass signal:** the dress causes a visible wind/shadow/frame event, one secondary fabric/print evidence zone exists, composition tension is obvious, the bottom pays off the concept, and all text belongs to the manifest.
-
-## Case R: branded iced Americano that degenerates into a packshot
-
-**Input risk:** isolated cup on blue gradient, coffee beans as filler, three text labels as the only proof, no authorized brand-memory system, and fabricated roast, caffeine, nutrition, price or volume claims.
-
-**Expected route:** impact_mode=commercial-rich; iced-coffee spectacle; 9–11 modules; cup at 50–65% height; directed ice/refraction/condensation event; secondary macro or ritual evidence; brand-color/visible-logo memory device.
-
-**Required locks:** exact cup wall, rim, fill line, coffee color, ice scale, condensation, logo and label; no liquid outside cup; no “深烘精粹,” “醒神,” “0糖0脂,” numbers, ingredients or offer without user-supplied evidence.
-
-**Pass signal:** visual thesis is readable without copy, cup triggers the event, a secondary evidence zone exists, type and product overlap intentionally, bottom close is non-interactive, and automatic claim checks pass.
-
-## Case S: explicit expanded-recipe selection
-
-**Input risk:** a user requests “黑金奢华科技发布风,” but the output becomes a generic blue cyber portal or copies unsafe reservation, specification, launch, or badge text from the recipe example.
-
-**Expected route:** `style_recipe=R03-black-gold-tech-launch`; one source-supported hero product; black/titanium/champagne material system; monumental headline, engineered aperture, precision rim light and one visible material/construction proof.
-
-**Required locks:** the recipe ID appears in the concept and prompt; all placeholder copy slots are rebuilt from the user's product and campaign; no fabricated secondary view, claim, date, endorsement, price or CTA.
-
-**Pass signal:** the result is unmistakably R03 without relying on borrowed brands or invented facts, and the preflight checker accepts the declared recipe.
-
-## Case T: expanded-recipe safety boundary
-
-**Input risk:** a recipe that mentions fruit, delivery, celebrity badge, live viewers, performance data, day count or low price causes the model to render those details despite no supporting input.
-
-**Expected route:** select the visual recipe but omit every unsupported module; use visible material evidence and a publicity slogan when no conversion brief exists.
-
-**Required locks:** `claim_provenance` and `claim_evidence` cover all factual copy; `requires_cta=false` for publicity; exact-copy mode for any verified number or offer.
-
-**Pass signal:** composition, palette, light, type and motif language match the recipe while every unsafe example field remains absent.
 
 ## Batch gate
 

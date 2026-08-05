@@ -114,34 +114,6 @@ Every new concept must answer five questions before generation:
 4. How does the bottom close without defaulting to three equal cards or a false CTA?
 5. Which factual line is visible, user-supplied, or omitted?
 
-## Editorial-still regression: dress and iced coffee
-
-Two later outputs avoided the generic triptych but still failed the commercial target.
-
-### Hanging floral dress
-
-The output preserved the dress and used believable sunlight, yet it remained a garden photograph with typography. The garden owned the image; the dress caused no event; the bottom was only three labels and a caption. It also invented “AI生成” and a fake year/initial code.
-
-Correction:
-
-- default a plain poster request to commercial-rich, not quiet editorial;
-- use an asymmetric frame, hem/wind/shadow interaction, and one print/fabric inset;
-- create a collection/campaign memory device without inventing a brand;
-- integrate the closing line with the hem, shadow, or material field;
-- forbid every unlisted letter, number, year, watermark, AI label, and pseudo-word.
-
-### Branded iced Americano
-
-The output enlarged the cup but relied on a pale blue gradient, a few coffee beans, and three copy labels. No secondary sensory evidence or brand-owned visual event existed. “深烘精粹,” “冰爽醒神,” and “0糖0脂” were not supplied and therefore were unsafe.
-
-Correction:
-
-- make the cup trigger a directed ice/refraction/condensation event;
-- add one macro evidence window or morning ritual strip;
-- derive a memory cue from authorized brand blue and visible logo geometry;
-- make typography interact with cup scale rather than merely sit above it;
-- automatically detect digits and high-risk nutrition, stimulation, roast, performance, and specification language before generation.
-
 ## Batch anti-template check
 
 Before generating, fill this table:

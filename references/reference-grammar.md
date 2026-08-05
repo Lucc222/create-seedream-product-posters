@@ -11,9 +11,8 @@ The strongest references consistently combine five qualities:
 3. **Commercial proof**: one dominant visible proof plus optional supporting benefits, a usage result, badge, price, or service strip explains why to believe.
 4. **Designed depth**: foreground frame, hero, interaction effect, environment, and background cues create a real visual world.
 5. **Deliberate closure**: a conversion CTA/offer, or a publicity slogan/brand strip, gives the eye an intentional ending.
-6. **Visible campaign event**: product, type, material, environment, and one memory cue participate in one idea that survives when benefit copy is removed.
 
-A beautiful product image without a hero event, secondary product-specific proof, memory device, composition tension, and deliberate close is an editorial still, not a complete commercial poster.
+A beautiful product image without product-specific proof and a deliberate close is an editorial still, not a complete commercial poster.
 
 ## 2. Six-band vertical anatomy
 
@@ -187,8 +186,6 @@ Use the product’s shape as a visual metaphor whenever possible: circular camer
 The references often contain brand, headline, proof, hero and closure, but their completeness must not be reduced to one reusable stack. Reject the combination `top-centered headline + centered isolated product + three equal bottom cards`. It remains generic even when the background, palette, or category changes.
 
 For each concept, keep the six-band logic while changing the composition axis, overlap, proof mechanism, module shapes, scene interaction, and bottom close. Require two devices that could not be pasted unchanged onto an unrelated product.
-
-Do not overcorrect into minimal emptiness. Unless the user explicitly requests quiet premium, use commercial-rich: 9–11 modules, interaction among at least four richness layers, ownership/headline/proof/hero/secondary/closing zones, and impact devices spanning composition, evidence, and memory.
 
 ## 10. Originality rule
 

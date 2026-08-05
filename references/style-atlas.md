@@ -1,6 +1,6 @@
 # Product Poster Style Atlas
 
-Use one primary family. Mix one secondary family only when the commercial objective requires it. After choosing the family, select one concrete R01–R18 implementation from [style-recipes-18.md](style-recipes-18.md); the family explains why, while the recipe defines how.
+Use one primary family. Mix one secondary family only when the commercial objective requires it.
 
 ## Contents
 
@@ -14,9 +14,8 @@ Use one primary family. Mix one secondary family only when the commercial object
 8. Playful IP
 9. Promotion arena
 10. Social story collage
-11. Expanded 18-recipe catalog
-12. Selection matrix
-13. Batch diversity router
+11. Selection matrix
+12. Batch diversity router
 
 ## 1. Tech flagship
 
@@ -135,7 +134,7 @@ Avoid unauthorized faces, excessive skin retouching, medical efficacy claims, an
 **Layout**
 
 - H1 occupies 10–24%.
-- Use one strong sensory proof plus up to two subordinate labels; do not let three text chips replace the beverage event.
+- Three flavor/benefit chips stack left or form one row.
 - Price sits in a solid contrast tile.
 - A conversion CTA uses a large pill or rounded rectangle near 82–90%; a publicity poster uses no button and closes with a slogan.
 
@@ -144,19 +143,6 @@ Avoid unauthorized faces, excessive skin retouching, medical efficacy claims, an
 ### Transparent-drink truth lock
 
 Record cup outline, lid/rim, fill level, liquid gradient, label position, number and placement of visible fruit slices, ice scale, condensation, and transparent gaps. Keep splashes behind or around the cup; never let them erase the label or make the liquid cross the cup wall.
-
-### Iced-coffee commercial spectacle
-
-Use for branded iced Americano or cold brew when the brief asks for a publicity poster rather than a menu packshot.
-
-- Default to commercial-rich: 9–11 modules and all six information zones.
-- Make the cup 50–65% of poster height and let it overlap type, a refraction field, or one controlled ice/condensation event.
-- Add one secondary evidence window: macro ice geometry, coffee-light refraction, cup-wall condensation, or a truthful morning ritual strip.
-- Derive one memory cue from the authorized brand palette and visible logo geometry.
-- Make the headline a spatial device—stacked, cropped, split, or wrapped around the cup—rather than a plain top line.
-- Close publicity work with a seasonal brand statement integrated with the ground plane; use no CTA.
-
-Avoid empty blue gradients, isolated coffee beans as the only props, invented roast/caffeine/nutrition claims, and three small labels acting as the entire proof system.
 
 ## 5. Daily lifestyle
 
@@ -217,17 +203,7 @@ Avoid inventing ingredients, showing more contents than the pack supports, or tu
 - Add one magnified fabric/print detail and one use-context cue; these replace generic benefit cards.
 - Close publicity posters with a season line, collection name, or quiet editorial caption—not a button.
 
-### Fashion campaign: commercial-rich
-
-Use this mode by default for a plain “给这件衣服做海报” request. Reserve quiet editorial treatment for an explicit minimal/luxury brief.
-
-- Use 9–10 semantic modules across ownership, headline, proof, hero, secondary detail, and close.
-- Turn the garment into an event: one directional wind path, hem sweep, shadow cut, paper-set break, or architectural interaction.
-- Add one magnified print/fabric inset and one garment-specific construction cue such as strap path, neckline, seam, or drape.
-- Use a collection mark, floral-repeat graphic, or custom title lockup as the memory device without inventing a brand.
-- Let the bottom close echo the hem, shadow, or material inset instead of becoming a thin caption rail.
-
-**Avoid:** unsupported body-shaping claims, fabricated fabric names, invented colorways, extra garments, random flowers that hide the print, implausible floating straps, three equal icon pills, fake season years, “AI生成,” random initials, and a garden location doing all the creative work.
+**Avoid:** unsupported body-shaping claims, fabricated fabric names, invented colorways, extra garments, random flowers that hide the print, implausible floating straps, and three equal icon pills.
 
 ## 7. Sport energy
 
@@ -346,13 +322,7 @@ Multi-SKU posters require two-pass exact-copy mode whenever prices or discount a
 
 **Avoid:** fake app notifications that imply real people, overcrowded text, using a face without authorization, losing the product.
 
-## 11. Expanded 18-recipe catalog
-
-Read [style-recipes-18.md](style-recipes-18.md) for the complete normalized catalog: Oriental tea-room luxury, tropical refreshment, black-gold tech launch, cream-gold beauty, volt sport, peach crystal soda, deep-blue EV launch, oat-black home coffee, red-black mega sale, silver-black future auto, cyan smart city, warm family breakfast, office scrapbook, midnight food documentary, comic value promotion, nude-pink feminine tech, palace live commerce, and airy contemporary Chinese tea space.
-
-Choose by buying mechanism and evidence opportunity. Treat the recipe as art direction only; never inherit example prices, specifications, endorsements, logistics, ingredients, benefits, brand marks, or CTA modules without verified input.
-
-## 12. Selection matrix
+## 11. Selection matrix
 
 | Objective | Primary family | Optional secondary | Density |
 |---|---|---|---|
@@ -369,7 +339,7 @@ Choose by buying mechanism and evidence opportunity. Treat the recipe as art dir
 
 Choose the family by the buying reason, not by the product category alone.
 
-## 13. Batch diversity router
+## 12. Batch diversity router
 
 When generating posters for multiple unrelated products, do not default every item to the tech-flagship system. Assign contrasting art directions before writing prompts.
 

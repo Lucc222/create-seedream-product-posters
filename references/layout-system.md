@@ -83,11 +83,9 @@ Use for beauty, lifestyle, or a scene with a person.
 - Use a curved mirror, arch, moon gate, or window as a spatial separator.
 - Keep the headline between 10–28%.
 - Put the product close-up between 40–78%.
-- For commercial-rich apparel, add a secondary material/print/construction inset and let the garment cross one frame or type boundary.
 - Use one price/CTA card near 80–92% for conversion, or one quiet slogan/brand line for publicity.
 
 Ensure the gaze, hand, or scene line points toward the product and, when used, the CTA.
-Reject a garment simply hanging in a location with title above and labels below; it is an editorial still, not a campaign layout.
 
 ### Formula C: Product plus usage result
 
@@ -115,7 +113,6 @@ Use for beverages.
 
 - Headline: 7–24%.
 - Benefit chips: left stack at 30–52% or row at 26–34%.
-- For commercial-rich iced coffee, replace the generic chip rail with one dominant sensory proof and one secondary macro/refraction window.
 - Hero drink: 36–78%, 45–60% of total poster height.
 - Ingredient proof: around the base, no more than three ingredient types.
 - Price: contrast tile at 68–80%.
@@ -123,7 +120,6 @@ Use for beverages.
 - Trust strip: 92–98%.
 
 Keep the product label unobstructed and the liquid level physically plausible.
-Reject an isolated cup on an empty gradient when no ice/refraction/condensation event, secondary evidence zone, or brand-memory system exists.
 
 ### Formula E: Dynamic diagonal
 

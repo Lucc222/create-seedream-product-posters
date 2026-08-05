@@ -36,8 +36,6 @@ Never select urgent conversion when no verified offer exists. Never select funct
 
 Density is a commercial decision, not a decoration preference.
 
-For an unqualified “做一个海报” request, use D2 plus impact_mode=commercial-rich. Do not silently route to D1 because the product is fashion, beauty, or premium. Use D1/quiet-premium only when the brief explicitly asks for restraint, gallery minimalism, luxury quietness, or editorial stillness.
-
 ### D1 — Editorial premium: 6–8 modules
 
 Use for status, beauty, cultural value, craftsmanship, fragrance, jewelry, gifts, and premium single products.
@@ -153,7 +151,6 @@ Product signals: form__ / material__ / use__ / desire__
 Primary mechanism:
 Secondary mechanism or none:
 Density: D1 / D2 / D3; target __ modules
-Impact mode: quiet-premium / commercial-rich / campaign-maximal
 Blueprint:
 Poster type: publicity / conversion; requires_cta=true/false
 Scale: headline__ / product__ / CTA-or-slogan__
@@ -161,10 +158,6 @@ Three anchors:
 Four-or-five richness layers:
 Unsupported facts explicitly excluded:
 Claim provenance: support__ / benefits__[visible, user-supplied, or omitted]
-Claim evidence: support__ / benefits__
-Commercial completeness: visual thesis__ / hero event__ / evidence scene__ / memory device__ / composition tension__ / bottom payoff__
-Impact devices: composition__ / product evidence__ / memory__
-Information zones: ownership / headline / proof / hero / secondary / closing
 Category-specific devices: 1)__ 2)__
 Interaction or material proof:
 Foreground depth device:

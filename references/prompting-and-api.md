@@ -57,11 +57,10 @@ subject + action + environment + style/color/light/composition
 For commercial posters, expand it to:
 
 ```text
-task + reference role + product truth lock + campaign idea + selected style recipe + scene +
-impact mode + visual thesis + hero event + evidence scene + memory device +
-composition tension + bottom payoff + product-specific devices + anti-template statement +
-six information zones + six-band layout + layout signature + density budget +
-three anchors + exact text with provenance/evidence + art direction + invariants
+task + reference role + product truth lock + campaign idea + scene +
+two product-specific devices + interaction/material proof + anti-template statement +
+six-band layout + layout signature + density budget + three anchors +
+exact text with claim provenance + art direction + invariants
 ```
 
 Put exact visible text in double quotation marks.
@@ -81,11 +80,9 @@ closing_slogan="..." or closing_slogan=none
 footer="..." or footer=none
 claim_provenance.support="visible" / "user-supplied" / "omitted"
 claim_provenance.benefits=["visible","user-supplied","omitted"]
-claim_evidence.support="concrete evidence note"
-claim_evidence.benefits=["evidence note","evidence note","evidence note"]
 ```
 
-The prompt must say that no text outside this manifest may appear. Explicitly forbid letters, numbers, years, initials, watermarks, “AI生成,” fake brand codes, random English, and pseudo-type not present in the manifest. Leaving eyebrow or footer unspecified invites plausible but unauthorized microcopy.
+The prompt must say that no text outside this manifest may appear. Leaving eyebrow or footer unspecified invites plausible but unauthorized microcopy.
 
 For English posters:
 
@@ -113,25 +110,12 @@ Treat source-package text separately from poster-overlay copy:
 
 Describe the use case explicitly: “竖版9:16电商商品海报” is more controllable than “好看的图”.
 
-Declare one recipe from [style-recipes-18.md](style-recipes-18.md) before describing the scene:
-
-```text
-风格配方=[R00-custom-family or one R01–R18 ID]。
-只继承该配方的构图、材质、光线、字体性格与模块语言；
-不继承配方示例中的品牌、价格、日期、参数、功效、代言、优惠、物流、CTA或其他占位文字。
-将配方转译为当前商品专属的[五个视觉签名]。
-```
-
-If none of R01–R18 fits the buying mechanism, use `R00-custom-family` and define the five signatures directly instead of forcing a category mismatch.
-
 State the commercial completeness target explicitly:
 
 ```text
-这不是极简画册封面、带字产品摄影或普通景观摆拍，而是一张完成度高的商业海报。
-冲击模式为[quiet-premium / commercial-rich / campaign-maximal]。
-视觉命题为[visual thesis]；商品触发[hero event]；用[evidence scene]提供次级证据；
-用[authorized memory device]建立品牌或活动记忆；用[composition tension]制造张力；
-以[bottom payoff]完成收口。转化型使用CTA；宣传型不使用CTA。
+画面不是极简产品渲染，而是一张完成度高的商业海报：具备明确主标题、
+商品英雄区、卖点证明、互动效果、环境纵深，以及与海报类型匹配的底部收口。
+转化型使用CTA；宣传型不使用CTA，以品牌口号或主题落款收口。
 ```
 
 Do not write a comma-separated pile of aesthetic buzzwords. Explain spatial relationships and importance.
@@ -209,15 +193,10 @@ Adapt the brackets and remove unused layers:
 
 主题是“[主题]”。面向[受众/使用时刻]，传达[单一价值]。
 场景为[具体场景与视觉隐喻]，使用[不超过三类道具]，道具只用于衬托商品。
-冲击模式为[quiet-premium / commercial-rich / campaign-maximal]。
-视觉命题为[visual thesis]，即使不读文字也能识别；商品必须触发[hero event]。
-用[evidence scene]形成英雄商品之外的次级证据区；用[authorized brand/campaign memory device]
-建立记忆；通过[scale/overlap/crop/split/diagonal]制造构图张力；以[bottom payoff]完成收口。
 产品专属视觉装置为[装置1]与[装置2]，分别来自商品的[形态/材质]和[使用/互动]；
 可见证明为[互动或材质证据]，前景用[纵深装置]形成空间层次。
 明确避开[模板签名]，不得套用顶部居中大字、中央商品、底部三等分卡片。
 
-版式包含ownership、headline、proof、hero、secondary、closing六个信息区。
 版式签名为headline_axis=[...]、product_axis=[...]、bottom_system=[...]。六段布局：
 - 顶部[百分比]放置[品牌/眉题]；
 - [百分比]放置主标题“[4–10字]”，它是最大文字；
@@ -239,8 +218,7 @@ Adapt the brackets and remove unused layers:
 必须避免：商品变形、标签错位、额外logo、重复商品、乱码、错别字、
 文字压住商品、无关装饰、廉价发光、物理矛盾效果、漂浮音符、通用速度线、
 过度拥挤，以及任何无来源的功能/性能描述。副标题与卖点的来源为[逐条填写visible或
-user-supplied]并附证据；没有来源的项目必须删除。除明确指定的文字与商品原有标签外，
-不出现任何字母、数字、年份、编号、水印、“AI生成”、假品牌缩写、随机英文或伪排版字符。
+user-supplied]；没有来源的项目必须删除。除明确指定的文字外不生成其他文字。
 ```
 
 For an English poster, replace the opening and copy instructions with:

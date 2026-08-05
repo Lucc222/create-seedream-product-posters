@@ -11,7 +11,6 @@ Reject and regenerate if any condition is true:
 - product is duplicated without being requested;
 - a multi-SKU poster changes the requested SKU count, substitutes a category, or attaches a price/tag ambiguously to the wrong product;
 - a third-party logo, certification, price, specification, or endorsement was invented;
-- any overlay text, year, initials, watermark, “AI生成,” pseudo-English, or microcopy appears outside the exact copy manifest;
 - hero headline, CTA when used, or closing slogan contains gibberish, a wrong character, or an unintended extra word;
 - English copy uses broken words, accidental mixed-language overlay copy, inconsistent capitalization, or unnatural literal translation;
 - a hand, lid, cable, wheel, handle, or transparent material is visibly malformed;
@@ -21,14 +20,10 @@ Reject and regenerate if any condition is true:
 - CTA falls into the bottom safe area when a CTA is required;
 - a publicity poster contains an unnecessary button, arrow, search bar, purchase instruction, or pseudo-interactive control;
 - the poster claims something not visible or user-supplied;
-- overall concept does not match the selected style family, declared R00/R01–R18 recipe, or campaign objective;
-- the output copied an example recipe's placeholder price, date, parameter, benefit, endorsement, delivery promise, CTA, logo, mascot, live metric, or other unsupplied field;
+- overall concept does not match the selected style family or campaign objective.
 - multiple posters in one batch reuse the same template with only a color or product swap;
 - a single standard poster uses the banned generic triptych: top-centered headline, centered product, and three equal bottom cards with no stronger product-specific proof;
 - the concept relies on an attractive generic lifestyle backdrop but has fewer than two visual devices derived from the product’s form, material, use, or desire;
-- the output remains an editorial still: background supplies the idea, the product causes no visual event, there is no secondary evidence/story zone, or the bottom has no payoff;
-- commercial-rich output lacks one of the six information zones or fewer than four impact devices spanning composition, evidence, and memory;
-- a branded product has no authorized brand-memory device, or an unbranded product receives an invented logo/brand;
 - decorative effects contradict product physics or are disconnected clip art, such as undivided steam-plus-ice, floating musical notes, or generic speed lines that do not originate from product interaction;
 - apparel floats without plausible support or changes the exact neckline, straps, print repeat, seams, waist, or hem;
 - a footwear or speaker poster invents a product count, brand technology, numeric specification, performance label, acoustic mode, IP rating, or battery claim;
@@ -121,8 +116,6 @@ The user’s target is 90+, so 85–89 is “promising but revise,” not final.
 | Extra tiny copy appears | Eyebrow/footer unspecified | Supply a complete copy manifest and explicitly forbid all other text |
 | Background fights the label | Similar contrast/texture | Add calm halo, tonal separation, or shallow depth |
 | Style is generic | Only adjective-based prompt | Add one specific scene metaphor and lighting direction |
-| Declared recipe is not visible | Recipe name was pasted but signature devices were omitted | Restate five recipe signatures across composition, material, light, type, and module language |
-| Recipe added unsafe content | Example slots were treated as facts | Keep the visual grammar; delete every unsupported price, date, parameter, claim, endorsement, offer, CTA, or brand asset |
 | Conversion is weak | No next action/offer zone | Add a clear CTA and verified offer mechanism |
 | Publicity looks transactional | Button, arrow, or action copy was added by habit | Remove UI-like controls and use a non-interactive slogan or brand line |
 | Dense poster is chaotic | Modules lack containers | Group into headline, hero, and conversion containers |
@@ -132,10 +125,6 @@ The user’s target is 90+, so 85–89 is “promising but revise,” not final.
 | Single poster feels templated | Top headline + centered product + three equal bottom cards | Replace at least the axis, evidence mechanism, module shapes, product overlap, and bottom close |
 | Poster is not lively | Only product and backdrop exist | Add purposeful foreground, interaction, and environmental depth layers |
 | Pretty but generic | Lifestyle background is doing all the work | Add two devices derived from product form/material/use and one visible proof |
-| Looks like a magazine cover | No hero event, secondary evidence, memory device, or bottom payoff | Rebuild as commercial-rich and regenerate the key visual |
-| Dress is only hanging in a garden | Location replaced campaign thinking | Add textile macro, hem/strap interaction, composition tension, collection device, and integrated close |
-| Iced coffee is only a cup on blue | Gradient replaced beverage spectacle | Add one directed ice/refraction/condensation event, one macro evidence zone, and an authorized brand-color/symbol system |
-| “AI生成” or fake year appears | Unlisted native microcopy was not explicitly forbidden | Reject; regenerate with a complete manifest and a blanket ban on all unlisted characters |
 | Effects feel cheap | Disconnected notes, speed lines, glows, or stickers | Tie one coherent effect to grille, sole, cap, fabric, liquid, airflow, or another true geometry |
 | Claims feel plausible but unverified | Category convention was treated as evidence | Mark every support/benefit visible, user-supplied, or omitted; delete unsupported lines |
 | Drink becomes a splash sculpture | Transparent structure was not locked | Restate cup wall, fill line, label, ice, slice, and splash-behind-product rules |
